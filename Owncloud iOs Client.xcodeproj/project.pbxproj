@@ -4038,6 +4038,7 @@
 						CreatedOnToolsVersion = 6.0.1;
 						DevelopmentTeam = Z4LNPDY9WK;
 						LastSwiftMigration = 0800;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -5382,6 +5383,10 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_RESOURCE_RULES_PATH = "";
 				DEFINES_MODULE = NO;
+<<<<<<< HEAD
+=======
+				DEVELOPMENT_TEAM = 9B5WD74GWJ;
+>>>>>>> internal Testing
 				DEVELOPMENT_TEAM = Z4LNPDY9WK;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -5409,7 +5414,11 @@
 					"$(SRCROOT)",
 				);
 				OTHER_LDFLAGS = "-ObjC";
+<<<<<<< HEAD
 				PRODUCT_BUNDLE_IDENTIFIER = com.mst.owncloud.ios;
+=======
+				PRODUCT_BUNDLE_IDENTIFIER = group.com.mst.owncloud.ios;
+>>>>>>> internal Testing
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
@@ -5457,7 +5466,11 @@
 					"$(SRCROOT)",
 				);
 				OTHER_LDFLAGS = "-ObjC";
+<<<<<<< HEAD
 				PRODUCT_BUNDLE_IDENTIFIER = com.mst.owncloud.ios;
+=======
+				PRODUCT_BUNDLE_IDENTIFIER = group.com.mst.owncloud.ios;
+>>>>>>> internal Testing
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
@@ -5578,7 +5591,11 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_SWIFT_FLAGS = "-D DEBUG";
+<<<<<<< HEAD
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mst.owncloud.ios.$(PRODUCT_NAME:rfc1034identifier)";
+=======
+				PRODUCT_BUNDLE_IDENTIFIER = com.mst.owncloud.ios;
+>>>>>>> internal Testing
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
@@ -5626,7 +5643,11 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_SWIFT_FLAGS = "";
+<<<<<<< HEAD
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mst.owncloud.ios.$(PRODUCT_NAME:rfc1034identifier)";
+=======
+				PRODUCT_BUNDLE_IDENTIFIER = com.mst.owncloud.ios;
+>>>>>>> internal Testing
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
@@ -5819,9 +5840,14 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+<<<<<<< HEAD
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mst.owncloud.ios.$(PRODUCT_NAME:rfc1034identifier)";
+=======
+				PRODUCT_BUNDLE_IDENTIFIER = com.mst.owncloud.ios;
+>>>>>>> internal Testing
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "7453f6f8-e24a-4190-944d-90a9cd6a51dd";
+				PROVISIONING_PROFILE_SPECIFIER = "ownCloud Testing";
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "Owncloud iOs Client/OCExtensions-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
@@ -5872,9 +5898,14 @@
 					"$(PROJECT_DIR)",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
+<<<<<<< HEAD
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mst.owncloud.ios.$(PRODUCT_NAME:rfc1034identifier)";
+=======
+				PRODUCT_BUNDLE_IDENTIFIER = com.mst.owncloud.ios;
+>>>>>>> internal Testing
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "7453f6f8-e24a-4190-944d-90a9cd6a51dd";
+				PROVISIONING_PROFILE_SPECIFIER = "ownCloud Testing";
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "Owncloud iOs Client/OCExtensions-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
