@@ -3993,6 +3993,7 @@
 					1324297715ADBB3700DF823E = {
 						DevelopmentTeam = Z4LNPDY9WK;
 						LastSwiftMigration = 0800;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -5384,9 +5385,12 @@
 				CODE_SIGN_RESOURCE_RULES_PATH = "";
 				DEFINES_MODULE = NO;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 				DEVELOPMENT_TEAM = 9B5WD74GWJ;
 >>>>>>> internal Testing
+=======
+>>>>>>> 73a02712a6094330c4a36931ea766af8537cfe51
 				DEVELOPMENT_TEAM = Z4LNPDY9WK;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -5415,13 +5419,18 @@
 				);
 				OTHER_LDFLAGS = "-ObjC";
 <<<<<<< HEAD
+<<<<<<< HEAD
 				PRODUCT_BUNDLE_IDENTIFIER = com.mst.owncloud.ios;
 =======
 				PRODUCT_BUNDLE_IDENTIFIER = group.com.mst.owncloud.ios;
 >>>>>>> internal Testing
+=======
+				PRODUCT_BUNDLE_IDENTIFIER = com.mst.owncloud.ios;
+>>>>>>> 73a02712a6094330c4a36931ea766af8537cfe51
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "b55702d9-de23-4844-8c70-6b181c79e26b";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE_SPECIFIER = "ownCloud Testing AD";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "CONTAINER_APP=1";
 				SWIFT_INSTALL_OBJC_HEADER = YES;
@@ -5467,13 +5476,18 @@
 				);
 				OTHER_LDFLAGS = "-ObjC";
 <<<<<<< HEAD
+<<<<<<< HEAD
 				PRODUCT_BUNDLE_IDENTIFIER = com.mst.owncloud.ios;
 =======
 				PRODUCT_BUNDLE_IDENTIFIER = group.com.mst.owncloud.ios;
 >>>>>>> internal Testing
+=======
+				PRODUCT_BUNDLE_IDENTIFIER = com.mst.owncloud.ios;
+>>>>>>> 73a02712a6094330c4a36931ea766af8537cfe51
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "b55702d9-de23-4844-8c70-6b181c79e26b";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE_SPECIFIER = "ownCloud Testing AD";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "CONTAINER_APP=1";
 				SWIFT_INSTALL_OBJC_HEADER = YES;
@@ -5592,10 +5606,14 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_SWIFT_FLAGS = "-D DEBUG";
 <<<<<<< HEAD
+<<<<<<< HEAD
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mst.owncloud.ios.$(PRODUCT_NAME:rfc1034identifier)";
 =======
 				PRODUCT_BUNDLE_IDENTIFIER = com.mst.owncloud.ios;
 >>>>>>> internal Testing
+=======
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mst.owncloud.ios.OC-Share-Sheet";
+>>>>>>> 73a02712a6094330c4a36931ea766af8537cfe51
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
@@ -5644,10 +5662,14 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_SWIFT_FLAGS = "";
 <<<<<<< HEAD
+<<<<<<< HEAD
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mst.owncloud.ios.$(PRODUCT_NAME:rfc1034identifier)";
 =======
 				PRODUCT_BUNDLE_IDENTIFIER = com.mst.owncloud.ios;
 >>>>>>> internal Testing
+=======
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mst.owncloud.ios.OC-Share-Sheet";
+>>>>>>> 73a02712a6094330c4a36931ea766af8537cfe51
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
@@ -5841,6 +5863,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 <<<<<<< HEAD
+<<<<<<< HEAD
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mst.owncloud.ios.$(PRODUCT_NAME:rfc1034identifier)";
 =======
 				PRODUCT_BUNDLE_IDENTIFIER = com.mst.owncloud.ios;
@@ -5848,6 +5871,12 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "7453f6f8-e24a-4190-944d-90a9cd6a51dd";
 				PROVISIONING_PROFILE_SPECIFIER = "ownCloud Testing";
+=======
+				PRODUCT_BUNDLE_IDENTIFIER = com.mst.owncloud.ios.ownCloudExtAppFileProvider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "77d8cb0d-7d45-49d7-836c-f6fa706ffd6a";
+				PROVISIONING_PROFILE_SPECIFIER = "ownCloud Testing ExtAppFileProvider";
+>>>>>>> 73a02712a6094330c4a36931ea766af8537cfe51
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "Owncloud iOs Client/OCExtensions-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
@@ -5899,6 +5928,7 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 <<<<<<< HEAD
+<<<<<<< HEAD
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mst.owncloud.ios.$(PRODUCT_NAME:rfc1034identifier)";
 =======
 				PRODUCT_BUNDLE_IDENTIFIER = com.mst.owncloud.ios;
@@ -5906,6 +5936,12 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "7453f6f8-e24a-4190-944d-90a9cd6a51dd";
 				PROVISIONING_PROFILE_SPECIFIER = "ownCloud Testing";
+=======
+				PRODUCT_BUNDLE_IDENTIFIER = com.mst.owncloud.ios.ownCloudExtAppFileProvider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "77d8cb0d-7d45-49d7-836c-f6fa706ffd6a";
+				PROVISIONING_PROFILE_SPECIFIER = "ownCloud Testing ExtAppFileProvider";
+>>>>>>> 73a02712a6094330c4a36931ea766af8537cfe51
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "Owncloud iOs Client/OCExtensions-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
