@@ -49,6 +49,8 @@
     return self;
 }
 
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
@@ -76,7 +78,15 @@
     [self.bodyTextView becomeFirstResponder];
     [super viewWillAppear:animated];
     [self setStyleView];
+
+}
+
+- (void)viewWillDisappear:(BOOL)animated
+{
+    [self setEditing:NO animated:YES];
     
+    // unregister for keyboard notifications while not visible.
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:UIKeyboardWillShowNotification object:nil];
 }
 
 
